@@ -1,7 +1,26 @@
 body {
     background-image: url("../images/spiration-light.png");
+    position:relative;
+    top: 20%;
 }
 
 h1 {
-    color: orange;
+    color: white;
+    background-color: teal;
+    position: relative;
+    left: 20%;
+    right: 60%;  
+}
+
+h2 {
+    color: teal;
+    position: relative;
+    left: 20%;
+}
+
+.bodybox {
+    background-color: white;
+    position: relative;
+    left: 20%;
+    right: 20%;
 }
