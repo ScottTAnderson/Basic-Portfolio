@@ -1,33 +1,50 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Contact Information</title>
+<html lang="en">
 
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Information</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <header class=clearfix>
+        <div class=headercontent>
+            <h1>Scott Anderson</h1>
+
+            <nav class="tabs">
+                <ul>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section>
+        <div class="maincontent">
+            <h2>Contact</h2>
+
+            <form action="/action_page.php" method="get">
+                Name<br>
+                <input type="text" name="name"><br><br>
+                Email<br>
+                <input type="text" name="email"><br><br>
+                Message<br>
+                <textarea type="text" name="message" rows="15"></textarea><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </section>
     
-    <body>
+    <footer>
+        Copyright &copy;
+    </footer>
+</body>
 
-        <h1>Scott Anderson</h1>
-    
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-
-        <h2>Contact</h2>
-
-        <form action="/action_page.php">
-            Name<br>
-            <input type="text" name="name"><br>
-            Email<br>
-            <input type="text" name="email"><br>
-            Message<br>
-            <input type="text" name="message"><br>
-            <input type="submit" value="submit">
-        </form>
-    
-    </body>
 </html>

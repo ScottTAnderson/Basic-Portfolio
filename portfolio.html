@@ -1,32 +1,62 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Portfolio</title>
+<html lang="en">
 
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
 
-    <body>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
 
-        <h1>Scott Anderson</h1>
+<body>
+    <header class=clearfix>
+        <div class=headercontent>
+            <h1>Scott Anderson</h1>
 
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-    
-        <h2>Portfolio</h2>
-    
-        <br><br>
+            <nav class="tabs">
+                <ul>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-        <img src="https://placezombie.com/images/475x170.1.jpg" alt="Example1">
-        <img src="https://placezombie.com/images/300x200.1.jpg" alt="Example2">
-        <img src="https://placezombie.com/images/275x342.1.jpg" alt="Example3">
-        <img src="https://placezombie.com/images/300x300.1.jpg" alt="Example4">
-        <img src="https://placezombie.com/images/320x490.1.jpg" alt="Example5">
-        <img src="http://placezombie.com/300x200" alt="Example6">
+    <section>
+        <div class="maincontent clearfix">
+            <h2>Portfolio</h2>
 
-    </body>
+            <div class="container">
+                <img class="portfolio pf1" src="assets/images/portfolio1.jpg" alt="Potfolio1">
+                <div class="text">Hangman</div>
+            </div>
+            <div class="container">
+                <img class="portfolio pf2" src="assets/images/portfolio2.jpg" alt="Potfolio2">
+                <div class="text">RPG Game</div>
+            </div>
+            <div class="container">
+                <img class="portfolio pf3" src="assets/images/portfolio3.jpg" alt="Potfolio3">
+                <div class="text">Triva Game</div>
+            </div>
+            <div class="container">
+                <img class="portfolio pf4" src="assets/images/portfolio4.jpg" alt="Potfolio4">
+                <div class="text">Rutgers Info Widget</div>
+            </div>
+            <div class="container">
+                <img class="portfolio pf5" src="assets/images/portfolio5.jpg" alt="Potfolio5">
+                <div class="text">Rock Paper Scissors</div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        Copyright &copy;
+    </footer>
+</body>
+
 </html>
